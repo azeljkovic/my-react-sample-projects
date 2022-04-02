@@ -4,11 +4,13 @@
 
 body {
     margin: 0;
+    font-family: 'Inter', serif;
+    background-color: #282D35;
 }
 
+/* navbar */
 .navbar {
     display: flex;
-
     height: 91px;
     background: #21222A;
     border: 1px solid #000000;
@@ -25,14 +27,12 @@ body {
 
 .logo-title {
     font-size: 22px;
-    font-family: 'Inter', serif;
     font-weight: bold;
     color: #61DAFB;
     margin: auto auto auto 0;
 }
 
 .title {
-    font-family: 'Inter', serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
@@ -40,4 +40,28 @@ body {
     padding-right: 27px;
 
     color: #DEEBF8;
+}
+
+/* main section */
+main {
+    color: #FFFFFF;
+    padding: 57px 27px;
+}
+
+.main-title {
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.05em;
+}
+
+.main-list {
+    margin: 46px auto auto 74px;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 400px;
+}
+
+.main-list > li {
+    line-height: 19px;
+    padding-block: 10px;
 }
